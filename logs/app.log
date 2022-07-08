@@ -1,0 +1,17 @@
+2021-11-19 14:52:21,384 INFO c.e.d.DemoBatchApplication [main] Starting DemoBatchApplication using Java 15.0.2 on NO0056 with PID 42248 (C:\Users\thiago.rocha\Documents\PROJETOS JAVA\demoBatch\target\classes started by thiago.rocha in C:\Users\thiago.rocha\Documents\PROJETOS JAVA\demoBatch)
+2021-11-19 14:52:21,389 INFO c.e.d.DemoBatchApplication [main] No active profile set, falling back to default profiles: default
+2021-11-19 14:52:22,449 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-19 14:52:23,003 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-19 14:52:23,272 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2021-11-19 14:52:23,416 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2021-11-19 14:52:23,595 INFO c.e.d.DemoBatchApplication [main] Started DemoBatchApplication in 2.548 seconds (JVM running for 3.85)
+2021-11-19 14:52:23,732 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=7}]
+2021-11-19 14:52:23,790 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2021-11-19 14:52:23,896 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 106ms
+2021-11-19 14:52:23,921 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=7}] and the following status: [COMPLETED] in 159ms
+2021-11-19 14:52:23,960 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=11, nome=Thi}]
+2021-11-19 14:52:23,976 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2021-11-19 14:52:23,999 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 23ms
+2021-11-19 14:52:24,011 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=11, nome=Thi}] and the following status: [COMPLETED] in 44ms
+2021-11-19 14:52:24,021 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-11-19 14:52:24,040 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
